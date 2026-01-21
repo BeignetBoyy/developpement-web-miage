@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0px 30px;
 }
 
 .profile-gauche p {
@@ -43,7 +44,8 @@ body {
 }
 
 .profile-droite{
-    align-items: center;
+    display: flex;
+    justify-content: end;
 }
 
 .profile-droite img {
@@ -53,14 +55,33 @@ body {
 .about {
     text-align: center;
     margin: 0px 15%;
+    font-size: small;
 }
 
 .reseaux {
     display: flex;
+    justify-content: center;
 }
 
 .reseaux ul{
     list-style-type: none;
+    font-size: smaller;
+    display: flex;
+    gap: 45px;
+}
+
+.reseaux ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reseaux h4{
+    margin-bottom: 0px;
+}
+
+.reseaux p{
+    margin-top: 0px;
 }
 
 .reseaux-button {
