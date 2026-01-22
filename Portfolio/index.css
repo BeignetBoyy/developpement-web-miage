@@ -100,3 +100,86 @@ body {
     width: 8px;
     height: 8px;
 }
+
+.whatido{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 10%;
+}
+
+.whatido div{
+    background-color: #212121;
+    width: 30%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px 20px 10px 20px;
+
+    font-size: medium;
+    color: #505050;
+}
+
+.whatido div:hover {
+    border-bottom: 2px #27AE60 solid; 
+    transition: 0.2s ease-in-out;
+}
+
+.whatido img{
+    width: 20px
+}
+
+.skills{
+    display: flex;
+    background-color: #212121;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.skills h4{
+    font-size: xx-large;
+    color:#505050;
+    margin: 0px;
+}
+
+.skills p {
+    color: #27AE60;
+    margin: 0px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-form input{
+    background-color: transparent;
+    color: #505050;
+    border: none;
+    border-bottom: 1px solid #505050;
+    font-family: "DM Sans";
+    margin: 0px 10px;
+}
+
+.contact-form textarea{
+    background-color: transparent;
+    color: #505050;
+    border: 1px solid #505050;
+    font-family: "DM Sans";
+    font-size: small;
+    width: 80%;
+    resize: none;
+    padding: 10px;
+}
+
+.contact-form button{
+    color: #FFFFFF;
+    background-color: #27AE60;
+    border: 1px #27AE60 solid;
+    width: fit-content;
+    padding: 10px 20px;
+}
