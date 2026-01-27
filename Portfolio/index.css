@@ -2,13 +2,37 @@ body {
     background-color: #171717;
     color: #FFFFFF;
     font-family: "DM Sans", sans-serif;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar-droite{
+        display: none;
+    }
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 20px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-left: 0px;
+    transform: translateY(-100px);
+}
+
+.navbar-small {
+    height: 30px;
+    font-size: small;
+    padding: 10px;
+    justify-content: start;
+}
+
+.navbar-small .navbar-droite{
+    display: none;
 }
 
 .navbar-droite{
